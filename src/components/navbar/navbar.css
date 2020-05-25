@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap");
+
+.Navbar li {
+  display: inline;
+  padding: 0px 20px;
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar {
+  position: fixed;
+  width: 80%;
+  height: 104px;
+  /* left: 178px; */
+  margin-top: 33px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  background: #00641b;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
+
+/* iphone */
+@media only screen 
+  /* and (min-device-width: 320px)  */
+  and (max-device-width: 850px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1303px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .Navbar li {
+        display: inline;
+        padding: 0px 20px;
+        font-family: Prompt;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+      }
+}
+
+/* desktop */
+@media screen 
+  and (min-device-width: 1304px) 
+  /* and (max-device-width: 1600px)  */
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}

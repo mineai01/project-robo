@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap");
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(
+      323.02deg,
+      #0da637 30.92%,
+      #36b349 54.46%,
+      #8dcd6e 97.7%
+    );
+    box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .setLogo {
+    /* margin: 49px 336px 66px 336px; */
+    margin: 49px 20% 66px 20%;
+  }
+  
+  img {
+    left: 17.56%;
+    right: 70.05%;
+    top: 33.33%;
+    bottom: 50%;
+    /* margin: 10px 18px; */
+    /* width: 238px; */
+    height: 61px;
+    margin: 18px 10px;
+  }
+  
+  p {
+    /* position: absolute;
+    left: 46.1%;
+    right: 46.14%;
+    top: 13.39%;
+    bottom: 80.87%; */
+    margin: 39px;
+  
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 22px;
+  
+    /* display: flex;
+    align-items: center;
+    text-align: center; */
+  
+    color: #424242;
+  }
+  
