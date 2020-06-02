@@ -26,9 +26,8 @@ header nav{
 }
 
 .Navbar {
-  position: static;
   width: 80%;
-  height: 104px;
+  height: 100%;
   /* left: 178px; */
   /* margin-top: 33px; */
   margin-left: 10%;
@@ -59,7 +58,7 @@ header nav{
     }
 
     .Navbar ul{
-      padding: 1.4vh 2.5vh;
+      padding: 0.5vh 2.5vh;
     }
     
     .Navbar {
@@ -81,7 +80,7 @@ header nav{
     }
 
     .Navbar ul{
-      padding: 1.4vh 2.5vh;
+      padding: 1.5vh 2.5vh;
     }
     
     .Navbar {
@@ -97,7 +96,5 @@ header nav{
   and (min-device-width: 1304px) 
   /* and (max-device-width: 1600px)  */
   and (-webkit-min-device-pixel-ratio: 1) { 
-    .Navbar li {
-      font-size: 20px;
-    }
+ 
 }

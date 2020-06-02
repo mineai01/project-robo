@@ -15,7 +15,7 @@ const Footer = (props) => (
       <div class="setLogo">
         <p class="pFooter">สนับสนุนโดย</p>
         <div class="Logo">
-          {/* <div class="rowCenter"> */}
+          <div class="rowCenter">
             <img src={softwarePark} alt="Software Park"></img>
             <img src={Nstda} alt="NSTDA"></img>
             <img src={NSD} alt="NSD"></img>
@@ -31,7 +31,7 @@ const Footer = (props) => (
               alt="MakerAssociationThailand"
               class="logoPortrait2"
             ></img>
-          {/* </div> */}
+          </div>
           <div class="organizeLogo">
             <img src={OrganizeByProbo} alt="Probo"></img>
           </div>

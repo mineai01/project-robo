@@ -12,19 +12,11 @@ const Middle = (props) => (
       <div class="imgBG">
         <div class="center">
           <div style={{ paddingTop: "6%" }}>
-            <img
-              src={logoCenter}
-              alt="logo"
-              style={{ marginBottom: "3%"}}
-            ></img>
+            <img src={logoCenter} alt="logo" style={{ marginBottom: "3%"}}></img>
             <img src={bySoftwareparkThailand} alt="BySoftwarepark" style={{width: "45%"}}></img>
           </div>
           <div class="challenge">
-            <img
-              src={challengePrice}
-              alt="challengePrice"
-              style={{ marginBottom: "1%" }}
-            ></img>
+            <img src={challengePrice} alt="challengePrice" style={{ marginBottom: "1%" }}></img>
             <img src={price} alt="price"></img>
           </div>
           <div>
