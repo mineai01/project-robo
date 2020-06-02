@@ -1,10 +1,14 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap");
+
+header nav{
+/* margin-top: 20px; */
+}
 
 .Navbar li {
   display: inline;
@@ -22,11 +26,11 @@
 }
 
 .Navbar {
-  position: fixed;
+  position: static;
   width: 80%;
   height: 104px;
   /* left: 178px; */
-  margin-top: 33px;
+  /* margin-top: 33px; */
   margin-left: 10%;
   margin-right: 10%;
 
@@ -36,12 +40,34 @@
   text-align: center;
 }
 
+.Navbar ul{
+  padding: 4.7vh 5vh;
+}
+
+.Navbar div{
+  /* margin: 41px ; */
+}
 /* iphone */
 @media only screen 
   /* and (min-device-width: 320px)  */
-  and (max-device-width: 850px)
+  and (min-device-width: 375px)
+  and (max-device-width: 767px) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    .Navbar li {
+      font-size: 14px;
+      padding: 0px 16px;  
+    }
 
+    .Navbar ul{
+      padding: 1.4vh 2.5vh;
+    }
+    
+    .Navbar {
+      width: 95%;
+      height: 48px;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
 }
 
 /* ipad */
@@ -50,14 +76,20 @@
   and (max-device-width: 1303px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .Navbar li {
-        display: inline;
-        padding: 0px 20px;
-        font-family: Prompt;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 22px;
-      }
+      font-size: 14px;
+      padding: 0px 16px;  
+    }
+
+    .Navbar ul{
+      padding: 1.4vh 2.5vh;
+    }
+    
+    .Navbar {
+      width: 95%;
+      height: 48px;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
 }
 
 /* desktop */
@@ -65,4 +97,7 @@
   and (min-device-width: 1304px) 
   /* and (max-device-width: 1600px)  */
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .Navbar li {
+      font-size: 20px;
+    }
 }

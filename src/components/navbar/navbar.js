@@ -5,7 +5,7 @@ import "./navbar.css";
 const Navbar = (props) => (
   <header className="App-header">
     <div className="Navbar">
-      <div style={{ margin: "41px" }}>
+      <div>
         <nav>
           {/* <div>
             <DrawerToggleButton />
@@ -13,15 +13,15 @@ const Navbar = (props) => (
           <ul>
             <li>
               <a href="#">หน้าแรก</a>
-            </li>{" "}
+            </li>
             <b>|</b>
             <li>
               <a href="#">สมัครเข้าร่วมแข่งขัน ROBO INNOVATOR CHALLENGE</a>
-            </li>{" "}
+            </li>
             <b>|</b>
             <li>
               <a href="#">กติกา</a>
-            </li>{" "}
+            </li>
             <b>|</b>
             <li>
               <a href="#">รายละเอียดโครงการ</a>

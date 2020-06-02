@@ -1,12 +1,15 @@
 import React from "react";
 import Footer from "./components/footer/footer";
 import Navbar from "./components/navbar/navbar";
+import Middle from "./components/middle/middle";
+import Slidepic from "./components/slidepic/slidepic"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Slidepic />
+      <Middle />
       <Footer />
     </div>
   );
